@@ -7,10 +7,10 @@ module internet_demux(
 
 
 
-assign Lib =  (Enable && ~Sel[0] && ~Sel[1]) ? muxOutput : 4'b0000;
-assign FD = (Enable && Sel[0] && ~Sel[1]) ? muxOutput : 4'b0000;
-assign School = (Enable && Sel[0] && Sel[1]) ? muxOutput : 4'b0000;
-assign Ribs = (Enable && ~Sel[0] && Sel[1]) ? muxOutput : 4'b0000 ;
+assign Lib =  (Enable && (Sel == 2'b00)) ? muxOutput : 4'b0000;
+assign FD = (Enable && (Sel == 2'b01)) ? muxOutput : 4'b0000;
+assign School = (Enable && (Sel == 2'b10)) ? muxOutput : 4'b0000;
+assign Ribs = (Enable && (Sel == 2'b11)) ? muxOutput : 4'b0000 ;
 
 
     

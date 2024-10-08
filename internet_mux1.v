@@ -6,12 +6,12 @@ module internet_mux1(
 );
 
 assign Y = Enable ? (
-        (~Sel[0] && ~Sel[1]) ? A : 
-        (Sel[0] && ~Sel[1]) ? B : 
-        (~Sel[0] &&  Sel[1]) ? C :
-        (Sel[0] && Sel[1]) ? D : 
-        4'b0000  
-    ) : 4'b0000;
+        (Sel == 2'b00) ? A :
+        (Sel == 2'b01) ? B :
+        (Sel == 2'b10) ? C :
+        (Sel == 2'b11) ? D :
+        4'b0000
+) : 4'b0000;
 
     
 
