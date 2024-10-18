@@ -1,0 +1,278 @@
+$date
+	Mon Jul 29 16:45:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module test $end
+$var wire 16 ! led [15:0] $end
+$var reg 1 " btnc $end
+$var reg 1 # btnd $end
+$var reg 1 $ btnl $end
+$var reg 1 % btnr $end
+$var reg 1 & btnu $end
+$var reg 5 ' i [4:0] $end
+$var reg 16 ( sw [15:0] $end
+$scope module uut $end
+$var wire 1 " btnc $end
+$var wire 1 # btnd $end
+$var wire 1 $ btnl $end
+$var wire 1 % btnr $end
+$var wire 1 & btnu $end
+$var wire 16 ) sw [15:0] $end
+$var wire 2 * mult_sel [1:0] $end
+$var wire 16 + led [15:0] $end
+$var wire 2 , demult_sel [1:0] $end
+$var wire 4 - data [3:0] $end
+$scope module demult $end
+$var wire 1 " enable $end
+$var wire 2 . sel [1:0] $end
+$var wire 4 / school [3:0] $end
+$var wire 4 0 rib_shack [3:0] $end
+$var wire 4 1 local_lib [3:0] $end
+$var wire 4 2 fire_dept [3:0] $end
+$var wire 4 3 data [3:0] $end
+$upscope $end
+$scope module mult $end
+$var wire 4 4 ceo [3:0] $end
+$var wire 1 " enable $end
+$var wire 4 5 fred [3:0] $end
+$var wire 4 6 jill [3:0] $end
+$var wire 2 7 sel [1:0] $end
+$var wire 4 8 you [3:0] $end
+$var wire 4 9 data [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 9
+b101 8
+b0 7
+b110 6
+b1010 5
+b1001 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b110101001011001 )
+b110101001011001 (
+bx '
+0&
+0%
+0$
+0#
+0"
+b0 !
+$end
+#100
+b1001 !
+b1001 +
+b1001 1
+b1001 -
+b1001 3
+b1001 9
+b0 '
+1"
+#200
+b1 '
+#300
+b101 !
+b101 +
+b101 1
+b101 -
+b101 3
+b101 9
+b10 '
+b1 *
+b1 7
+1$
+#400
+b1010 !
+b1010 +
+b1010 1
+b1010 -
+b1010 3
+b1010 9
+b11 '
+1&
+b10 *
+b10 7
+0$
+#500
+b110 !
+b110 +
+b110 1
+b110 -
+b110 3
+b110 9
+b100 '
+b11 *
+b11 7
+1$
+#600
+b0 1
+b10010000 !
+b10010000 +
+b1001 2
+b1001 -
+b1001 3
+b1001 9
+b101 '
+b1 ,
+b1 .
+1#
+0&
+b0 *
+b0 7
+0$
+#700
+b1010000 !
+b1010000 +
+b101 2
+b101 -
+b101 3
+b101 9
+b110 '
+b1 *
+b1 7
+1$
+#800
+b10100000 !
+b10100000 +
+b1010 2
+b1010 -
+b1010 3
+b1010 9
+b111 '
+1&
+b10 *
+b10 7
+0$
+#900
+b1100000 !
+b1100000 +
+b110 2
+b110 -
+b110 3
+b110 9
+b1000 '
+b11 *
+b11 7
+1$
+#1000
+b1001 /
+b100100000000 !
+b100100000000 +
+b0 2
+b1001 -
+b1001 3
+b1001 9
+b1001 '
+1%
+b10 ,
+b10 .
+0#
+0&
+b0 *
+b0 7
+0$
+#1100
+b10100000000 !
+b10100000000 +
+b101 /
+b101 -
+b101 3
+b101 9
+b1010 '
+b1 *
+b1 7
+1$
+#1200
+b101000000000 !
+b101000000000 +
+b1010 /
+b1010 -
+b1010 3
+b1010 9
+b1011 '
+1&
+b10 *
+b10 7
+0$
+#1300
+b11000000000 !
+b11000000000 +
+b110 /
+b110 -
+b110 3
+b110 9
+b1100 '
+b11 *
+b11 7
+1$
+#1400
+b0 /
+b1001000000000000 !
+b1001000000000000 +
+b1001 0
+b1001 -
+b1001 3
+b1001 9
+b1101 '
+b11 ,
+b11 .
+1#
+0&
+b0 *
+b0 7
+0$
+#1500
+b101000000000000 !
+b101000000000000 +
+b101 0
+b101 -
+b101 3
+b101 9
+b1110 '
+b1 *
+b1 7
+1$
+#1600
+b1010000000000000 !
+b1010000000000000 +
+b1010 0
+b1010 -
+b1010 3
+b1010 9
+b1111 '
+1&
+b10 *
+b10 7
+0$
+#1700
+b110000000000000 !
+b110000000000000 +
+b110 0
+b110 -
+b110 3
+b110 9
+b10000 '
+b11 *
+b11 7
+1$
+#1800
